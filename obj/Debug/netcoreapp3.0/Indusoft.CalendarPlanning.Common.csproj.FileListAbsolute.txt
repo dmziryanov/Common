@@ -1,0 +1,8 @@
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\bin\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.deps.json
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\bin\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.dll
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\obj\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.AssemblyInfoInputs.cache
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\obj\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.AssemblyInfo.cs
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\obj\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.csprojAssemblyReference.cache
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\bin\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.pdb
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\obj\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.dll
+C:\CalendarPlanning\Common\Indusoft.CalendarPlanning.Common\obj\Debug\netcoreapp3.0\Indusoft.CalendarPlanning.Common.pdb
