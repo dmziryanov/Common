@@ -7,7 +7,7 @@ namespace Indusoft.CalendarPlanning.Common
 {
     public static class AppExtensions
     {
-        private static void PerformMigrations<T>(this IApplicationBuilder app) where T : DbContext
+        public static void PerformMigrations<T>(this IApplicationBuilder app) where T : DbContext
         {
             using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
