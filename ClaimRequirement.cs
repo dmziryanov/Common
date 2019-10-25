@@ -25,6 +25,7 @@ namespace Indusoft.CalendarPlanning.Common
 
     public class ClaimRequirementFilter : IAuthorizationFilter
     {
+        private const string denyClaim = "deny";
         readonly Claim _claim;
         private readonly IConfiguration _configuration;
         private static List<SecurityKey> keys;
@@ -45,6 +46,15 @@ namespace Indusoft.CalendarPlanning.Common
             if (user is null)
             {
                 context.Result = new UnauthorizedResult();
+                return;
+            }
+
+            var hasDenyClaim = user.Claims.Any(c => c.Value == _claim.Value && _claim.Value.ToLower().Contains(denyClaim));
+
+
+            if (hasDenyClaim)
+            {
+                context.Result = new ForbidResult();
                 return;
             }
 
