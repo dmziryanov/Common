@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Title>Indusoft.CalendarPlanning.Common</Title>
+    <Authors>Indusoft</Authors>
+    <Description>Библиотека общих классов для сервисов календарного планирования</Description>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://tfs.indusoft.ru/tfs/InduSoft/CalendarPlanning/_git/Common</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +17,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="3.1.1" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
     <PackageReference Include="Npgsql" Version="4.1.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.1" />
